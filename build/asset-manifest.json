@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.848770d9.css",
-    "main.js": "/static/js/main.8e48a8dc.js",
-    "index.html": "/index.html",
-    "main.848770d9.css.map": "/static/css/main.848770d9.css.map",
-    "main.8e48a8dc.js.map": "/static/js/main.8e48a8dc.js.map"
+    "main.css": "/maggie-personal-wesbite/static/css/main.848770d9.css",
+    "main.js": "/maggie-personal-wesbite/static/js/main.8e48a8dc.js",
+    "index.html": "/maggie-personal-wesbite/index.html",
+    "main.848770d9.css.map": "/maggie-personal-wesbite/static/css/main.848770d9.css.map",
+    "main.8e48a8dc.js.map": "/maggie-personal-wesbite/static/js/main.8e48a8dc.js.map"
   },
   "entrypoints": [
     "static/css/main.848770d9.css",

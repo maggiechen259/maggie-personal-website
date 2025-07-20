@@ -2,7 +2,7 @@
   "name": "maggie-website",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://maggiechen259.github.io/maggie-personal-wesbite",
+  "homepage": "https://maggiechen259.github.io/maggie-personal-website",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
