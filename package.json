@@ -2,12 +2,16 @@
   "name": "maggie-website",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://maggiechen259.github.io/maggie-personal-wesbite",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "framer-motion": "^12.23.6",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.525.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
