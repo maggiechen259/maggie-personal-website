@@ -34,7 +34,7 @@ export default function HomePage() {
         transition={{ duration: 0.6 }}
         className="flex flex-col items-center justify-center py-12 px-4 text-center">
         <img
-          src="/profile.png"
+          src={`${process.env.PUBLIC_URL}/profile.png`}
           alt="Profile"
           className="w-40 h-40 rounded-full shadow-xl border-4 border-pink-300 object-cover mb-4"
         />
