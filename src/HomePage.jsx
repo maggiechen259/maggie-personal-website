@@ -49,7 +49,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.2 }}
-        className="max-w-3xl mx-auto p-6 mb-10 bg-white/70 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl shadow-xl border border-pink-200">
+        className="scroll-mt-20 max-w-3xl mx-auto p-6 mb-10 bg-white/70 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl shadow-xl border border-pink-200">
         <h2 className="text-2xl font-bold mb-3 text-pink-500">💖 About Me</h2>
         <p className="text-md leading-relaxed">
           I'm a passionate software engineer who loves building functional web applications that makes impact.
@@ -65,7 +65,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.3 }}
-        className="max-w-3xl mx-auto p-6 mb-10 bg-white/70 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl shadow-xl border border-pink-200">
+        className="scroll-mt-20 max-w-3xl mx-auto p-6 mb-10 bg-white/70 dark:bg-gray-800/80 backdrop-blur-md rounded-2xl shadow-xl border border-pink-200">
         <h2 className="text-2xl font-bold mb-3 text-pink-500">✨ Projects</h2>
         <div className="grid gap-4">
           <div className="bg-pink-50 dark:bg-gray-700 p-4 rounded-xl shadow border border-pink-100 hover:bg-pink-100 dark:hover:bg-gray-600">
@@ -94,7 +94,7 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        className="bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner">
+        className="scroll-mt-20 bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner">
         <h2 className="text-2xl font-bold text-pink-700 dark:text-pink-300 mb-2">📫 Contact Me</h2>
         <p className="mb-4">I'd love to hear from you!</p>
         <div className="flex justify-center gap-6 mb-4">
