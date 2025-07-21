@@ -89,10 +89,11 @@ export default function HomePage() {
 
       {/* Contact Me */}
       <motion.section
+          id="contact"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner"
+          className="scroll-mt-20 bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner"
         >
           <h2 className="text-2xl font-bold text-pink-700 dark:text-pink-300 mb-2">
             📫 Contact Me

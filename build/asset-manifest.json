@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maggie-personal-website/static/css/main.74881836.css",
-    "main.js": "/maggie-personal-website/static/js/main.b2cd3abb.js",
+    "main.js": "/maggie-personal-website/static/js/main.6bba0c7f.js",
     "index.html": "/maggie-personal-website/index.html",
     "main.74881836.css.map": "/maggie-personal-website/static/css/main.74881836.css.map",
-    "main.b2cd3abb.js.map": "/maggie-personal-website/static/js/main.b2cd3abb.js.map"
+    "main.6bba0c7f.js.map": "/maggie-personal-website/static/js/main.6bba0c7f.js.map"
   },
   "entrypoints": [
     "static/css/main.74881836.css",
-    "static/js/main.b2cd3abb.js"
+    "static/js/main.6bba0c7f.js"
   ]
 }
