@@ -125,7 +125,7 @@ export default function HomePage() {
               Instagram
             </a>
             <a
-              href="/Maggie_Resume.pdf"
+              href={`${process.env.PUBLIC_URL}/Maggie_Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full inline-flex items-center shadow-lg transition-transform hover:scale-105"
