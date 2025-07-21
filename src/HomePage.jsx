@@ -104,10 +104,10 @@ export default function HomePage() {
           <a href="https://www.linkedin.com/in/maggiechenn/" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="https://instagram.com/maggiechen259" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
+          <a href="https://instagram.com/maggie.chen.259" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
             <Instagram className="h-6 w-6" />
           </a>
-          <a href="/Maggie_Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800 font-semibold underline">
+          <a href={`${process.env.PUBLIC_URL}/Maggie_Resume.pdf`} target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800 font-semibold underline">
             Resume
           </a>
         </div>
