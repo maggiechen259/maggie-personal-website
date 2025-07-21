@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Moon, Sun, Linkedin, Instagram } from "lucide-react";
+import { Mail, Moon, Sun, Linkedin, Instagram, FileText } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
@@ -89,30 +89,53 @@ export default function HomePage() {
 
       {/* Contact Me */}
       <motion.section
-        id="contact"
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.6, delay: 0.4 }}
-        className="scroll-mt-20 bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner">
-        <h2 className="text-2xl font-bold text-pink-700 dark:text-pink-300 mb-2">📫 Contact Me</h2>
-        <p className="mb-4">I'd love to hear from you!</p>
-        <div className="flex justify-center gap-6 mb-4">
-          <a href="mailto:maggiechen259@gmail.com" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
-            <Mail className="h-6 w-6" />
-          </a>
-          <a href="https://www.linkedin.com/in/maggiechenn/" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
-            <Linkedin className="h-6 w-6" />
-          </a>
-          <a href="https://instagram.com/maggie.chen.259" target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800">
-            <Instagram className="h-6 w-6" />
-          </a>
-          <a href={`${process.env.PUBLIC_URL}/Maggie_Resume.pdf`} target="_blank" rel="noopener noreferrer" className="text-pink-600 hover:text-pink-800 font-semibold underline">
-            Resume
-          </a>
-        </div>
-      </motion.section>
-
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+          className="bg-pink-200 dark:bg-gray-700 p-8 text-center rounded-t-3xl shadow-inner"
+        >
+          <h2 className="text-2xl font-bold text-pink-700 dark:text-pink-300 mb-2">
+            📫 Contact Me
+          </h2>
+          <p className="mb-4">I'd love to hear from you!</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="mailto:maggiechen259@gmail.com"
+              className="bg-pink-500 hover:bg-pink-600 text-white font-bold py-2 px-6 rounded-full inline-flex items-center shadow-lg transition-transform hover:scale-105"
+            >
+              <Mail className="mr-2 h-4 w-4" />
+              Email
+            </a>
+            <a
+              href="https://www.linkedin.com/in/maggiechenn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-full inline-flex items-center shadow-lg transition-transform hover:scale-105"
+            >
+              <Linkedin className="mr-2 h-4 w-4" />
+              LinkedIn
+            </a>
+            <a
+              href="https://instagram.com/maggiechen259"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-pink-500 to-yellow-400 hover:from-pink-600 hover:to-yellow-500 text-white font-bold py-2 px-6 rounded-full inline-flex items-center shadow-lg transition-transform hover:scale-105"
+            >
+              <Instagram className="mr-2 h-4 w-4" />
+              Instagram
+            </a>
+            <a
+              href="/Maggie_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-full inline-flex items-center shadow-lg transition-transform hover:scale-105"
+            >
+              <FileText className="mr-2 h-4 w-4" />
+              Resume
+            </a>
+          </div>
+        </motion.section>
+     
       {/* Footer */}
       <footer className="text-center py-4 text-sm text-pink-500 dark:text-pink-300">
         © {new Date().getFullYear()} Maggie Chen. All rights reserved.
